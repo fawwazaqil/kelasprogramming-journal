@@ -1,0 +1,100 @@
+.colored-box {
+    background-color: #f0f0f0; /* Light grey background color */
+    padding: 0px; /* Space around the text inside the box */
+    border-radius: 5px; /* Optional rounded corners */
+    border: 1px solid #ccc; /* Optional border around the box */
+}
+
+.important-box-text {
+    background-color: #f0f0f0; /* Light grey background color */
+    padding: 0px; /* Space around the text inside the box */
+    border-radius: 5px; /* Optional rounded corners */
+    border: 1px solid #ccc; /* Optional border around the box */
+}
+
+.title-color {
+    background-color: #ff00fb; /* Light grey background color */
+    padding: 0px; /* Space around the text inside the box */
+    border-radius: 5px; /* Optional rounded corners */
+    border: 1px solid #ccc; /* Optional border around the box */
+}
+
+#title-id
+{
+    background-color: #48ca75e0; /* Light grey background color */
+    padding: 0px; /* Space around the text inside the box */
+    border-radius: 5px; /* Optional rounded corners */
+    border: 1px solid #ccc; /* Optional border around the box */
+    height: auto;
+    width: 320px;
+}
+
+.link-color {
+    color: rgb(40, 8, 253);
+}
+
+
+.section-background-color{
+    background-color: #dbd8ae; /* Light grey background color */
+}
+
+.section-1{
+    background-color: #eaf4d3; /* Light grey background color */
+    border-radius: 20px; /* Optional rounded corners */
+    border: 1px solid #ccc; /* Optional border around the box */
+    border-left: 4px solid #b4b889;
+    padding-left: 4rem;
+}
+
+.section-2{
+    background-color: #eaf4d3; /* Light grey background color */
+    border-radius: 20px; /* Optional rounded corners */
+    border: 1px solid #ccc; /* Optional border around the box */
+    border-left: 4px solid #b4b889;
+    padding-left: 1rem;
+    margin:0;
+    padding-top: 20px;
+}
+
+.section-navigation{
+    background-color: #dbe1a2; /* Light grey background color */
+    border-radius: 20px; /* Optional rounded corners */
+    border-color: #000000;
+    border-left:3px solid #b4b889;
+    padding-left: 1rem;
+}
+
+
+
+
+
+        /* CSS Grid container */
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;  /* Two equal columns */
+            gap: 20px;  /* Space between columns */
+            height: 100vh;  /* Full viewport height */
+        }
+        
+        /* Column style */
+        .column {
+            box-sizing: border-box;
+        }
+
+        /* Optional: Add background color to distinguish columns */
+        .left {
+            background-color: lightcoral;
+            border-radius: 20px;
+            width: 250px;
+            height: auto;
+            margin-right: auto;
+            padding: 10px;
+            
+        }
+
+        .right {
+            background-color: lightyellow;
+            padding-left: 50px;
+        }
+
+    
